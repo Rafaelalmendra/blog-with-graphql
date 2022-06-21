@@ -1,0 +1,34 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 10rem 2rem 10rem;
+}
+
+.infos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  align-items: unset;
+  gap: 1rem;
+}
+
+.author img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date p {
+  font-weight: bold;
+}
